@@ -36,15 +36,5 @@ Array.prototype.transpose = function (){
 }
 
 // [[ 2, 7 ], [ 3, 5 ]] => [[2, 3], [7, 5]]
-console.log([[ 2, 7, 4 ], [ 3, 5, 6 ]].transpose()) 
+//console.log([[ 2, 7, 4 ], [ 3, 5, 6 ]].transpose()) 
 
-// def transpose(arr)
-//     res =[]
-//     arr.each_with_index do |e1, i|
-//         res << []
-//             arr.each_with_index do |e2, j|
-//                 res[j][i] = arr[i][j]
-//             end
-//         end
-//     res
-// end
