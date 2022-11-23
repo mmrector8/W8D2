@@ -16,7 +16,7 @@ const doubler = (ele) => {
     return ele * 2
 }
 
-//console.log([1,2,3].myMap(doubler))
+console.log([1,2,3,5,5,5,5].myMap(doubler))
 Array.prototype.myReduce = function(callback, acc = this[0]){
     //go through array step by step
     // add current array value
@@ -34,4 +34,5 @@ Array.prototype.myReduce = function(callback, acc = this[0]){
 
 const reducer = function(acc,ele) {return acc * ele;}
 
-console.log([1,2,3].myReduce(reducer,3))
+//console.log([1,2,3].myReduce(reducer,3))
+
