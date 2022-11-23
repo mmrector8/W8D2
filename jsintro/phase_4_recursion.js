@@ -34,9 +34,10 @@ function exponent(base, exp) {
 const fibonacci = (n) => {
     if (n === 1) return [0]
     if (n === 2) return [0,1]
-    
+
     let fib = fibonacci(n-1)
     return fib.concat(fib[fib.length-1] + fib[fib.length-2])
 }
 
-console.log(fibonacci(4))
+//console.log(fibonacci(4))
+

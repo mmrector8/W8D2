@@ -15,10 +15,10 @@ Array.prototype.bubbleSort = function (){
         sorted = true
         for(let i = 0; i < this.length; i++){
             if(this[i]> this[i+1]){
-                let temp = this[i+1]
-                this[i+1] = this[i]
-                this[i] = temp 
-                sorted = false
+                let temp = this[i+1];
+                this[i+1] = this[i];
+                this[i] = temp ;
+                sorted = false;
             }
         }
     }
